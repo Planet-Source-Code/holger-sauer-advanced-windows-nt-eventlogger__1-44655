@@ -1,0 +1,35 @@
+#include "afxres.h"
+#include "msg_dll.rc"
+
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+ FILEFLAGS 0x0L
+ FILEOS 0x40004L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040704b0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Message Table\0"
+            VALUE "FileVersion", "1.0.0.1\0"
+            VALUE "InternalName", "MSG_DLL\0"
+            VALUE "LegalCopyright", "\0"
+            VALUE "OriginalFilename", "MSG_DLL.dll\0"
+            VALUE "ProductName", "Message Table\0"
+            VALUE "ProductVersion", "1.0.0.1\0"
+        END
+    END
+END
